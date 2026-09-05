@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="My Richmond Journey">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/contact.css">
+</html>
+
+<body>
+    <header>
+        <h1>My Richmond Journey</h1>
+        <input id="hamburger_checkbox" type="checkbox">
+        <label for="hamburger_checkbox" id="hamburger_menu">
+            <img id="hamburger_icon" src="images/hamburger-menu.png"
+            alt="Menu" width="24" height="18">
+            <span class="sr-only"> Toggle Navigation</span>
+        </label>
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="gallery.html">Photos</a>
+            <a href="about.html">About</a>
+            <a class="active_nav" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <form>
+        <h2>Join the Tiger Army</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="youremail@email.com"><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5"
+        placeholder="Write a message to TigerWill"></textarea>
+
+        <input type="submit" value="send your mail to the Jungle">
+
+    </form>
